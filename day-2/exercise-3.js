@@ -7,7 +7,7 @@
 
 const values = [100, 20, -50, 60, -10, 70];
 
-const result = 0; // Write your answer here
+const result = values.reduce((prev, cur) => prev + cur); // Write your answer here
 
 // Do not remove this and do not change the
 //    variable 'result' name above. It's
