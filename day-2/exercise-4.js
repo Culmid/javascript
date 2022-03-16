@@ -17,3 +17,12 @@ const person = {
     branchName: "Scranton",
   },
 };
+
+const {firstName, isAdmin, location: {branchName}} = person;
+
+const result = [firstName, isAdmin, branchName]; // Write your answer here
+
+// Do not remove this and do not change the
+//    variable 'result' name above. It's
+//    used for the tests.
+module.exports = result;
